@@ -1,0 +1,11 @@
+{
+  "standalone_reload": true,
+  "tokenizer_ids_exact": true,
+  "all_48_responses_exact": true,
+  "refusal_reduction_verified": true,
+  "original_unchanged": true,
+  "variant": "risk_L20_a1",
+  "restored_logits_exact": true,
+  "zero_control_exact": true,
+  "gradient_training": false
+}

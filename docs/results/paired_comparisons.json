@@ -1,0 +1,128 @@
+{
+  "risk_L14_a0.25": {
+    "qa": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "instruction": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "benign_sensitive": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "safety": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    }
+  },
+  "risk_L14_a1": {
+    "qa": {
+      "difference": -0.08333333333333333,
+      "paired_bootstrap95": [
+        -0.25,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "instruction": {
+      "difference": -0.08333333333333333,
+      "paired_bootstrap95": [
+        -0.25,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "benign_sensitive": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "safety": {
+      "difference": -1.0,
+      "paired_bootstrap95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    }
+  },
+  "random_L14_a1": {
+    "qa": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "instruction": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "benign_sensitive": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    },
+    "safety": {
+      "difference": 0.0,
+      "paired_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "n": 12,
+      "seed": 20261109,
+      "resamples": 4000
+    }
+  }
+}

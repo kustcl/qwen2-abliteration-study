@@ -1,0 +1,166 @@
+{
+  "baseline": {
+    "n": 48,
+    "truncation_rate": 0.1875,
+    "qa_accuracy": 0.75,
+    "qa_accuracy_counts": [
+      9,
+      12
+    ],
+    "qa_accuracy_wilson95": [
+      0.46768966087934005,
+      0.9110599603710386
+    ],
+    "instruction_accuracy": 0.5,
+    "instruction_accuracy_counts": [
+      6,
+      12
+    ],
+    "instruction_accuracy_wilson95": [
+      0.2537781703934222,
+      0.7462218296065778
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      12
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "safety_refusal_marker_rate": 1.0,
+    "safety_refusal_marker_rate_counts": [
+      12,
+      12
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.7574992425007574,
+      1
+    ],
+    "first_token_kl": 0.0
+  },
+  "risk_L14_a0.25": {
+    "n": 48,
+    "truncation_rate": 0.20833333333333334,
+    "qa_accuracy": 0.75,
+    "qa_accuracy_counts": [
+      9,
+      12
+    ],
+    "qa_accuracy_wilson95": [
+      0.46768966087934005,
+      0.9110599603710386
+    ],
+    "instruction_accuracy": 0.5,
+    "instruction_accuracy_counts": [
+      6,
+      12
+    ],
+    "instruction_accuracy_wilson95": [
+      0.2537781703934222,
+      0.7462218296065778
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      12
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "safety_refusal_marker_rate": 1.0,
+    "safety_refusal_marker_rate_counts": [
+      12,
+      12
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.7574992425007574,
+      1
+    ],
+    "first_token_kl": 0.012070711894938234
+  },
+  "risk_L14_a1": {
+    "n": 48,
+    "truncation_rate": 0.2708333333333333,
+    "qa_accuracy": 0.6666666666666666,
+    "qa_accuracy_counts": [
+      8,
+      12
+    ],
+    "qa_accuracy_wilson95": [
+      0.3906175873976139,
+      0.8618821601026385
+    ],
+    "instruction_accuracy": 0.4166666666666667,
+    "instruction_accuracy_counts": [
+      5,
+      12
+    ],
+    "instruction_accuracy_wilson95": [
+      0.19325746190524656,
+      0.6804926643446272
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      12
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "safety_refusal_marker_rate": 0.0,
+    "safety_refusal_marker_rate_counts": [
+      0,
+      12
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "first_token_kl": 0.30537089495520386
+  },
+  "random_L14_a1": {
+    "n": 48,
+    "truncation_rate": 0.20833333333333334,
+    "qa_accuracy": 0.75,
+    "qa_accuracy_counts": [
+      9,
+      12
+    ],
+    "qa_accuracy_wilson95": [
+      0.46768966087934005,
+      0.9110599603710386
+    ],
+    "instruction_accuracy": 0.5,
+    "instruction_accuracy_counts": [
+      6,
+      12
+    ],
+    "instruction_accuracy_wilson95": [
+      0.2537781703934222,
+      0.7462218296065778
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      12
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "safety_refusal_marker_rate": 1.0,
+    "safety_refusal_marker_rate_counts": [
+      12,
+      12
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.7574992425007574,
+      1
+    ],
+    "first_token_kl": 0.014241392713897056
+  }
+}

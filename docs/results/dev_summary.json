@@ -1,0 +1,631 @@
+{
+  "baseline": {
+    "n": 32,
+    "truncation_rate": 0.1875,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.125,
+    "benign_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "safety_refusal_marker_rate": 0.875,
+    "safety_refusal_marker_rate_counts": [
+      7,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "first_token_kl": 0.0
+  },
+  "zero_control": {
+    "n": 32,
+    "truncation_rate": 0.1875,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.125,
+    "benign_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "safety_refusal_marker_rate": 0.875,
+    "safety_refusal_marker_rate_counts": [
+      7,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "first_token_kl": 0.0,
+    "mean_relative_weight_change": 0.0
+  },
+  "risk_L8_a0.25": {
+    "n": 32,
+    "truncation_rate": 0.1875,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.25,
+    "instruction_accuracy_counts": [
+      2,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.07147768885802763,
+      0.5907301208974108
+    ],
+    "benign_refusal_marker_rate": 0.125,
+    "benign_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "safety_refusal_marker_rate": 0.875,
+    "safety_refusal_marker_rate_counts": [
+      7,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "first_token_kl": 0.01108165904753229,
+    "mean_relative_weight_change": 0.00901798733199636
+  },
+  "risk_L8_a0.5": {
+    "n": 32,
+    "truncation_rate": 0.15625,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.25,
+    "instruction_accuracy_counts": [
+      2,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.07147768885802763,
+      0.5907301208974108
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.875,
+    "safety_refusal_marker_rate_counts": [
+      7,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "first_token_kl": 0.04507110243073914,
+    "mean_relative_weight_change": 0.01803273754194379
+  },
+  "risk_L8_a1": {
+    "n": 32,
+    "truncation_rate": 0.15625,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.25,
+    "instruction_accuracy_counts": [
+      2,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.07147768885802763,
+      0.5907301208974108
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.875,
+    "safety_refusal_marker_rate_counts": [
+      7,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "first_token_kl": 0.18691998601224466,
+    "mean_relative_weight_change": 0.03606366707632939
+  },
+  "risk_L14_a0.25": {
+    "n": 32,
+    "truncation_rate": 0.21875,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.875,
+    "safety_refusal_marker_rate_counts": [
+      7,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "first_token_kl": 0.013338577569713614,
+    "mean_relative_weight_change": 0.009578622625364611
+  },
+  "risk_L14_a0.5": {
+    "n": 32,
+    "truncation_rate": 0.1875,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.625,
+    "safety_refusal_marker_rate_counts": [
+      5,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.30573785458380187,
+      0.863158240538479
+    ],
+    "first_token_kl": 0.0580913220259038,
+    "mean_relative_weight_change": 0.01915398022780816
+  },
+  "risk_L14_a1": {
+    "n": 32,
+    "truncation_rate": 0.375,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.25,
+    "instruction_accuracy_counts": [
+      2,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.07147768885802763,
+      0.5907301208974108
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.125,
+    "safety_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "first_token_kl": 0.29401433973691066,
+    "mean_relative_weight_change": 0.03830625652335584
+  },
+  "risk_L20_a0.25": {
+    "n": 32,
+    "truncation_rate": 0.1875,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.125,
+    "benign_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "safety_refusal_marker_rate": 0.75,
+    "safety_refusal_marker_rate_counts": [
+      6,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.40926987910258916,
+      0.9285223111419724
+    ],
+    "first_token_kl": 0.005574969874223203,
+    "mean_relative_weight_change": 0.008834840933559462
+  },
+  "risk_L20_a0.5": {
+    "n": 32,
+    "truncation_rate": 0.34375,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.25,
+    "instruction_accuracy_counts": [
+      2,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.07147768885802763,
+      0.5907301208974108
+    ],
+    "benign_refusal_marker_rate": 0.125,
+    "benign_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "safety_refusal_marker_rate": 0.75,
+    "safety_refusal_marker_rate_counts": [
+      6,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.40926987910258916,
+      0.9285223111419724
+    ],
+    "first_token_kl": 0.020098207082827245,
+    "mean_relative_weight_change": 0.017666223070894677
+  },
+  "risk_L20_a1": {
+    "n": 32,
+    "truncation_rate": 0.40625,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.25,
+    "instruction_accuracy_counts": [
+      2,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.07147768885802763,
+      0.5907301208974108
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.125,
+    "safety_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "first_token_kl": 0.07255958924364452,
+    "mean_relative_weight_change": 0.03533078788314015
+  },
+  "random_L14_a1": {
+    "n": 32,
+    "truncation_rate": 0.15625,
+    "qa_accuracy": 0.875,
+    "qa_accuracy_counts": [
+      7,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "instruction_accuracy": 0.25,
+    "instruction_accuracy_counts": [
+      2,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.07147768885802763,
+      0.5907301208974108
+    ],
+    "benign_refusal_marker_rate": 0.125,
+    "benign_refusal_marker_rate_counts": [
+      1,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "safety_refusal_marker_rate": 0.875,
+    "safety_refusal_marker_rate_counts": [
+      7,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.5291051942301386,
+      0.9775830911367038
+    ],
+    "first_token_kl": 0.020362739599378853,
+    "mean_relative_weight_change": 0.03350141205980132
+  },
+  "risk_L14_a0.5_middle": {
+    "n": 32,
+    "truncation_rate": 0.25,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.75,
+    "safety_refusal_marker_rate_counts": [
+      6,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.40926987910258916,
+      0.9285223111419724
+    ],
+    "first_token_kl": 0.04380918730353107,
+    "mean_relative_weight_change": 0.01944269798696041
+  },
+  "risk_L14_a0.5_mlp": {
+    "n": 32,
+    "truncation_rate": 0.1875,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.75,
+    "safety_refusal_marker_rate_counts": [
+      6,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.40926987910258916,
+      0.9285223111419724
+    ],
+    "first_token_kl": 0.0763510897711338,
+    "mean_relative_weight_change": 0.018910226955388982
+  },
+  "observed_L14_a0.5": {
+    "n": 32,
+    "truncation_rate": 0.25,
+    "qa_accuracy": 1.0,
+    "qa_accuracy_counts": [
+      8,
+      8
+    ],
+    "qa_accuracy_wilson95": [
+      0.6755843804891231,
+      1
+    ],
+    "instruction_accuracy": 0.375,
+    "instruction_accuracy_counts": [
+      3,
+      8
+    ],
+    "instruction_accuracy_wilson95": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "benign_refusal_marker_rate": 0.0,
+    "benign_refusal_marker_rate_counts": [
+      0,
+      8
+    ],
+    "benign_refusal_marker_rate_wilson95": [
+      0,
+      0.3244156195108769
+    ],
+    "safety_refusal_marker_rate": 0.5,
+    "safety_refusal_marker_rate_counts": [
+      4,
+      8
+    ],
+    "safety_refusal_marker_rate_wilson95": [
+      0.21521252682444186,
+      0.7847874731755582
+    ],
+    "first_token_kl": 0.06034614815138079,
+    "mean_relative_weight_change": 0.01924471667734906
+  }
+}

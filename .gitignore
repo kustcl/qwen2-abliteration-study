@@ -1,0 +1,14 @@
+# Local model weights and checkpoints are never part of this repository.
+models/
+/results/
+data/upstream/
+data/*.pt
+data/*.jsonl
+*.safetensors
+*.bin
+*.pt
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/

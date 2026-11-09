@@ -1,0 +1,22 @@
+{
+  "source_files": {
+    "harmful.txt": {
+      "sha256": "f035131936bb56f411e3a206c189d4ced7196138ed769752751deccd978c0c68",
+      "raw_lines": 520,
+      "eligible_unique_short_prompts": 520
+    },
+    "harmless.txt": {
+      "sha256": "034708b7b9e2c73b86a473cbf02178a5c0e76865c2aba03fbe14f4749e85dd2b",
+      "raw_lines": 31811,
+      "eligible_unique_short_prompts": 31801
+    }
+  },
+  "splits": {
+    "dev": 32,
+    "direction_train": 128,
+    "direction_validation": 32,
+    "external_test": 48,
+    "test": 48
+  },
+  "seed": 20261109
+}
